@@ -1,1 +1,144 @@
-body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;margin:0;padding:0;background-color:#f2f2f2;color:#333;text-decoration:none;background:linear-gradient(135deg,#e6e9f0,#ffffff);.container{max-width:500px;margin:20px auto;padding:10px;display:flex;flex-direction:column;gap:10px}.profile-card{background:#fff;border-radius:20px;box-shadow:0 10px 20px rgb(0 0 0 / .1);overflow:hidden;text-align:center;transition:transform 0.3s ease;height:auto}.profile-card:hover{transform:translateY(-5px)}.banner{height:180px;background:url(bosphorus.jpg) no-repeat center center/cover}.profile-picture{width:145px;height:145px;border-radius:50%;border:5px solid #fff;box-shadow:0 5px 10px rgb(0 0 0 / .1);margin-top:-60px;transition:transform 0.3s ease}.profile-picture:hover{transform:scale(1.05)}.contact-section{padding:20px}.btn{padding:10px 20px;font-size:14px;border:none;border-radius:5px;cursor:pointer;background:#3498db;color:#fff;text-decoration:none;transition:background-color 0.3s ease,transform 0.3s ease}.btn:hover{background-color:#2980b9}.btn-icon{margin-right:8px}.links a{text-decoration:none}.links{display:flex;flex-direction:column;gap:10px}.link-card{display:flex;align-items:center;padding:15px;background:#fff;border-radius:10px;box-shadow:0 5px 15px rgb(0 0 0 / .1);transition:transform 0.3s ease}.link-card:hover{transform:translateY(-5px)}.link-icon{font-size:24px;margin-right:10px;color:#333}.link-text h3{margin:0;font-size:18px;color:#333}.link-text p{margin:0;font-size:14px;color:#666}.profile-info{display:flex;align-items:center;justify-content:center}.profile-details{text-align:left;margin-left:5%}.profile-name{margin:0;font-size:24px;font-weight:700;color:#333}.profile-role{margin:5px 0;font-size:16px;color:#666}.profile-bio{padding:10px;font-size:14px;color:#666}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    text-decoration: none; 
+    background: linear-gradient(135deg, #e6e9f0, #ffffff);
+
+.container {
+    max-width: 500px; 
+    margin: 20px auto;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.profile-card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: auto; 
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+}
+
+.banner {
+    height: 180px; 
+    background: url('bosphorus.jpg') no-repeat center center/cover;
+}
+
+.profile-picture {
+    width: 145px; 
+    height: 145px; 
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin-top: -60px; 
+    transition: transform 0.3s ease;
+}
+
+.profile-picture:hover {
+    transform: scale(1.05);
+}
+
+.contact-section {
+    padding: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #3498db;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+.btn-icon {
+    margin-right: 8px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link-card {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.link-card:hover {
+    transform: translateY(-5px);
+}
+
+.link-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333;
+}
+
+.link-text h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.link-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+.profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-details {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.profile-name {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-role {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.profile-bio {
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+}
